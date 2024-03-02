@@ -1,0 +1,48 @@
+.hero {
+  padding-top: 64px;
+
+  &-title {
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 1.2;
+
+    text-align: center;
+
+    margin-bottom: 17px;
+  }
+
+  &-descr {
+    line-height: 1.5;
+    text-align: center;
+
+    margin-bottom: 33px;
+  }
+
+  &-btn {
+    display: block;
+
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1.12;
+    color: $lightColor;
+
+    background-color: $greenColor;
+    border-radius: 67px;
+
+    transition: opacity 0.3s ease-in-out;
+
+    padding: 16px 57px;
+    margin: 0 auto;
+    margin-bottom: 56px;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+  }
+}

@@ -1,0 +1,44 @@
+.benefits {
+  padding-top: 110px;
+
+  &-title {
+    margin-bottom: 40px;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px 53px;
+
+    &-item {
+      max-width: 255px;
+    }
+
+    &-icon {
+      width: 58px;
+      height: 58px;
+
+      background-color: $greenColor;
+      border-radius: 9px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin: 0 auto;
+      margin-bottom: 20px;
+
+      & svg {
+        fill: $lightColor;
+      }
+    }
+
+    &-descr {
+      line-height: 1.5;
+      text-align: center;
+
+      margin: 0 auto;
+    }
+  }
+}

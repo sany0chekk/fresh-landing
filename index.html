@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <title>Fresh</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header-container">
+          <a href="#" class="header-logo"><span></span>Logo</a>
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item">
+                <a href="#" class="header-nav-link">About</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="#" class="header-nav-link">Services</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="#" class="header-nav-link">Team</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="#" class="header-nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button type="button" class="header-burger-open">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <div class="header-burger">
+          <button type="button" class="header-burger-close">
+            <svg width="35" height="35">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="header-burger-list">
+            <li class="header-burger-item">
+              <a href="#" class="header-burger-link">About</a>
+            </li>
+            <li class="header-burger-item">
+              <a href="#" class="header-burger-link">Services</a>
+            </li>
+            <li class="header-burger-item">
+              <a href="#" class="header-burger-link">Team</a>
+            </li>
+            <li class="header-burger-item">
+              <a href="#" class="header-burger-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="container hero-container">
+            <h1 class="hero-title">The dawn of a new era in health is here</h1>
+            <p class="hero-descr">
+              Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
+              Diam lacus platea orci vel elit blandit facilisis
+            </p>
+            <button class="hero-btn">Join now</button>
+            <ul class="hero-list">
+              <li class="hero-list-item">
+                <img
+                  srcset="
+                    ./images/hero-1-min.jpg    1x,
+                    ./images/hero-1-2x-min.jpg 2x
+                  "
+                  src="./images/hero-1-min.jpg"
+                  alt=""
+                  class="hero-list-img"
+                />
+              </li>
+              <li class="hero-list-item">
+                <img
+                  srcset="
+                    ./images/hero-2-min.jpg    1x,
+                    ./images/hero-2-2x-min.jpg 2x
+                  "
+                  src="./images/hero-2-min.jpg"
+                  alt=""
+                  class="hero-list-img"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="benefits">
+          <div class="container benefits-container">
+            <h2 class="benefits-title main-title">Wellbeing is well doing</h2>
+            <ul class="benefits-list">
+              <li class="benefits-list-item">
+                <div class="benefits-list-icon">
+                  <svg width="26" height="29">
+                    <use href="./images/icons.svg#icon-nature"></use>
+                  </svg>
+                </div>
+                <p class="benefits-list-descr">
+                  Lorem ipsum dolor sit amet consectetur. Quam ut consequat at
+                  a. Diam lacus platea orci vel elit.
+                </p>
+              </li>
+              <li class="benefits-list-item">
+                <div class="benefits-list-icon">
+                  <svg width="26" height="29">
+                    <use href="./images/icons.svg#icon-nature"></use>
+                  </svg>
+                </div>
+                <p class="benefits-list-descr">
+                  Lorem ipsum dolor sit amet consectetur. Quam ut consequat at
+                  a. Diam lacus platea orci vel elit.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
