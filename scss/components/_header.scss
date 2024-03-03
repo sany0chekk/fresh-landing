@@ -28,6 +28,20 @@
     @media screen and (max-width: 767px) {
       display: none;
     }
+
+    &-list {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    &-link {
+      transition: opacity 0.3s ease-in-out;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
   }
 
   &-burger {
@@ -47,6 +61,10 @@
     transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out,
       opacity 0.3s ease-in-out;
 
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+
     &-active {
       visibility: visible;
       pointer-events: all;
@@ -64,6 +82,10 @@
         width: 100%;
         height: 2px;
         background-color: $darkColor;
+      }
+
+      @media screen and (min-width: 768px) {
+        display: none;
       }
     }
 

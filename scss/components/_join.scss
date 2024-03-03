@@ -11,6 +11,10 @@
       (min-resolution: 192dpi) {
       background-image: url(../images/join-2x-min.jpg);
     }
+
+    @media screen and (min-width: 768px) {
+      padding: 110px 20px;
+    }
   }
 
   &-icon {
@@ -27,6 +31,18 @@
 
     & svg {
       fill: $lightColor;
+
+      @media screen and (min-width: 768px) {
+        width: 44px;
+        height: 47px;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 92px;
+      height: 82px;
+
+      margin-bottom: 45px;
     }
   }
 
@@ -41,6 +57,27 @@
 
     margin: 0 auto;
     margin-bottom: 13px;
+
+    @media screen and (min-width: 768px) {
+      max-width: 640px;
+      font-size: 37px;
+      margin-bottom: 12px;
+    }
+  }
+
+  &-descr {
+    max-width: 650px;
+
+    line-height: 1.5;
+    color: $lightColor;
+    text-align: center;
+
+    margin: 0 auto;
+    margin-bottom: 28px;
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
   }
 
   &-btn {
@@ -55,5 +92,18 @@
 
     padding: 11px 62px;
     margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+      font-size: 21px;
+      line-height: 1.12;
+
+      padding: 16px 80px;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+      &:hover {
+        background-color: $lightColor;
+        color: $greenColor;
+      }
+    }
   }
 }

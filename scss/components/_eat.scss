@@ -5,6 +5,20 @@
     background-color: #f4f4f4;
     border-radius: 12px;
     padding: 62px 20px 43px;
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 100px;
+      padding: 81px 70px 112px;
+    }
+  }
+
+  &-img {
+    @media screen and (max-width: 1199px) {
+      display: none;
+    }
   }
 
   &-title {
@@ -35,7 +49,7 @@
     }
 
     &-descr {
-      max-width: 280px;
+      max-width: 237px;
 
       line-height: 1.5;
       text-align: center;

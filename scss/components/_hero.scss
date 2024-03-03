@@ -1,6 +1,10 @@
 .hero {
   padding-top: 64px;
 
+  @media screen and (min-width: 1200px) {
+    padding-top: 142px;
+  }
+
   &-title {
     font-weight: 600;
     font-size: 37px;
@@ -9,6 +13,10 @@
     text-align: center;
 
     margin-bottom: 17px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 65px;
+    }
   }
 
   &-descr {
@@ -16,6 +24,16 @@
     text-align: center;
 
     margin-bottom: 33px;
+
+    @media screen and (min-width: 768px) {
+      max-width: 625px;
+      margin: 0 auto;
+      margin-bottom: 33px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      max-width: none;
+    }
   }
 
   &-btn {
@@ -44,5 +62,9 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 28px;
+
+    @media screen and (min-width: 768px) {
+      flex-wrap: nowrap;
+    }
   }
 }

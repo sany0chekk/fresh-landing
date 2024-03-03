@@ -1,12 +1,36 @@
 .fresh {
   padding-top: 36px;
 
+  @media screen and (min-width: 768px) {
+    padding-top: 80px;
+  }
+
+  &-container {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+  }
+
   &-img {
     margin-bottom: 36px;
+    @media screen and (min-width: 768px) {
+      max-width: 425px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 0;
+      max-width: 670px;
+    }
   }
 
   &-title {
     margin-bottom: 16px;
+
+    @media screen and (min-width: 768px) {
+      text-align: left;
+    }
   }
 
   &-descr {
@@ -14,6 +38,10 @@
     text-align: center;
 
     margin-bottom: 40px;
+
+    @media screen and (min-width: 768px) {
+      text-align: left;
+    }
   }
 
   &-list {
