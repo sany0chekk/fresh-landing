@@ -1,0 +1,40 @@
+.fresh {
+  padding-top: 36px;
+
+  &-img {
+    margin-bottom: 36px;
+  }
+
+  &-title {
+    margin-bottom: 16px;
+  }
+
+  &-descr {
+    line-height: 1.5;
+    text-align: center;
+
+    margin-bottom: 40px;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+
+    &-item {
+      display: flex;
+      align-items: center;
+      gap: 23px;
+    }
+
+    &-icon {
+      flex-shrink: 0;
+      fill: $greenColor;
+    }
+
+    &-descr {
+      line-height: 1.5;
+      color: $greenColor;
+    }
+  }
+}

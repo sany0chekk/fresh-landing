@@ -1,0 +1,59 @@
+.join {
+  padding-top: 36px;
+
+  &-content {
+    border-radius: 12px;
+    background-image: url(../images/join-min.jpg);
+    padding: 71px 20px;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 2dppx),
+      (min-resolution: 192dpi) {
+      background-image: url(../images/join-2x-min.jpg);
+    }
+  }
+
+  &-icon {
+    width: 46px;
+    height: 43px;
+    border: 2px solid $lightColor;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+    margin-bottom: 13px;
+
+    & svg {
+      fill: $lightColor;
+    }
+  }
+
+  &-title {
+    max-width: 236px;
+
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1.45;
+    text-align: center;
+    color: $lightColor;
+
+    margin: 0 auto;
+    margin-bottom: 13px;
+  }
+
+  &-btn {
+    display: block;
+
+    font-weight: 600;
+    line-height: 1.46;
+    color: $lightColor;
+
+    border: 1px solid #f4f4f4;
+    border-radius: 67px;
+
+    padding: 11px 62px;
+    margin: 0 auto;
+  }
+}

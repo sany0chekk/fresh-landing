@@ -1,46 +1,42 @@
-.benefits {
-  padding-top: 80px;
+.eat {
+  padding-top: 36px;
 
   &-content {
-    border-radius: 12px;
     background-color: #f4f4f4;
-    padding: 70px 20px;
+    border-radius: 12px;
+    padding: 62px 20px 43px;
   }
 
   &-title {
-    margin-bottom: 40px;
+    margin-bottom: 41px;
   }
 
   &-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 36px 53px;
-
-    &-item {
-      max-width: 255px;
-    }
+    gap: 40px;
 
     &-icon {
-      width: 58px;
-      height: 58px;
-
-      background-color: $greenColor;
+      width: 57px;
+      height: 57px;
       border-radius: 9px;
-
       display: flex;
       align-items: center;
       justify-content: center;
+      background-color: #ebbfae;
 
       margin: 0 auto;
       margin-bottom: 20px;
 
       & svg {
-        fill: $lightColor;
+        fill: $darkColor;
       }
     }
 
     &-descr {
+      max-width: 280px;
+
       line-height: 1.5;
       text-align: center;
 
