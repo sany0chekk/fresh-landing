@@ -7,6 +7,10 @@ body {
   background-color: $lightColor;
 }
 
+.wrapper {
+  overflow-x: hidden;
+}
+
 .container {
   max-width: 400px;
   padding: 0 20px;
